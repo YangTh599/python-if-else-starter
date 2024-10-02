@@ -38,7 +38,7 @@ else:
 
 # Task 4
     
-vowels = {'a','e','i','o','u'}
+vowels = ['a','e','i','o','u']
 letter = input('Enter a letter from the alphabet: \n')
 if letter.lower()[0:1] in vowels:
     print('You printed a vowel, the vowel '+letter.lower()+'.')
